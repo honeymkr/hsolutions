@@ -21,7 +21,7 @@ background-color:aqua;
 
 background-image: linear-gradient(
 to right,
-aqua, #ff3fff
+rgb(183, 0, 255), #ff3f62
 ); }
 
 .logo-title{
@@ -32,7 +32,6 @@ aqua, #ff3fff
     padding-top: 1rem;
 }
 
-a {
-
-    color:#ff3fff;
+.simplenav ul li {
+    display: inline-block;
 }

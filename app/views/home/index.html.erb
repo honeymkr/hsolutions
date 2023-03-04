@@ -1,9 +1,18 @@
-<div>
+<div class="mt-10">
+<% if notice.present? %>
+  <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+<% end %>
 
+<div class="text-white">
+<h3 class="font-bold text-2xl">Who's this?</h3>
+<p>A creative problem solver, a leader and motivator: Jason Faulkner!
+</p>
+<p>Currently working on achieving my next AWS certificate: Solutions Architect Associate.</p>
+<p>I love to explore different technology stacks and collaborate with others to prototype, test and manage applications.</p>
 
- <h1 class="logo-title font-bold text-6xl">honeymkr.solutions</h1>
-
- <%= render "layouts/nav"  %>
+</div>
 
 
 </div>
+
+
